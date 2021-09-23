@@ -1,0 +1,41 @@
+ body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, tr, td, span, div { 
+    font-family: Arial, Helvetica, Sans-Serif; 
+    /* AB 24.01.2002 Netscape 4.7 retter sig ikke efter overordnet angivelse f.eks. paa body,
+    derfor de mange tag-navne. */ 
+ }
+  
+ table.toptekst { 
+    font-size: 80%; 
+	background: #ffffff; 
+	color: black;
+	border-width: 0; 
+   width : 100%;
+ }
+ table.ugeplan {
+	width : 100%;
+}
+ tr {
+	vertical-align : top;
+}
+   
+ pre, code { font-family: monospace; }
+ div.center { text-align: center; }
+ div.right { text-align: right; }
+ div.bundtekst { font-size: 60%; text-align: right; }
+
+.out {	text-decoration : line-through; }
+.new {	background-color : rgb(121, 121, 121); 	color: rgb(253, 250, 250); }
+
+div.blackBox {
+background-color: black;
+}
+div.greyBox{
+   background-color:gray;
+padding: 3%;
+}
+
+hr {
+   color: black;
+   text-align: center;
+ }
+/* til �ndringer i ugeplaner og lign. */
